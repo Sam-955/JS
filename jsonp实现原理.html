@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+    function success(data){
+        console.log('拿到数据')
+        console.log(data)
+    }
+    function abc(data){
+        console.log('拿到数据')
+        console.log(data)
+    }
+</script>
+// callback 判断函数名调用哪一个
+<script src="./js/getdata.js?callback=abc">
+
+
+</script>
+</body>
+</html>
